@@ -21,3 +21,6 @@ python extract.py --src PATH_TO_LMDB_FOLDER --dst PATH_TO_SAVE_FOLDER
 
 ### Notes
 - It may take some times to extract large folder (e.g. To extract 1.9GB folder, it took ~20 minutes)
+
+### Contact
+Email: anh.pnb176682@sis.hust.edu.vn

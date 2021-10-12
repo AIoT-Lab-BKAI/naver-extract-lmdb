@@ -4,13 +4,13 @@
 ## Installation
 ```bash
 git clone https://github.com/AIoT-Lab-BKAI/naver-extract-lmdb
-cd extract_lmdb
+cd naver-extract-lmdb
 ```
 
 ### Create new python virtual environments
 ```bash
-python -m venv ./extract_lmdb
-source ./extract_lmdb/bin/activate
+python -m venv ./naver-extract-lmdb
+source ./naver-extract-lmdb/bin/activate
 pip install -r requirements.txt
 ```
 

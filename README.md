@@ -24,10 +24,11 @@ python extract.py --src PATH_TO_LMDB_FOLDER --dst PATH_TO_SAVE_FOLDER
 python extract.py --src /mnt/disk2/baoanh/SCAN-UNIGRAM-MULTIPROCESS-FIRST-45M/train_ocr --dst unigram_images
 
 ```
+- After running, it will save all the raw images into 'unigram_images' folder and corresponding labels for each raw image in 'unigram_images_label' folder
 
 ### Results
-- Raw images folder
-- Label folder with corresponding label for each image in images folder
+- Raw images folder (E.g. 'unigram_images' folder)
+- Label folder with corresponding label for each image in images folder (E.g. 'unigram_images_label' folder)
 
 ### Notes
 - It may take some times to extract large folder (e.g. To extract 1.9GB folder, it took ~20 minutes)

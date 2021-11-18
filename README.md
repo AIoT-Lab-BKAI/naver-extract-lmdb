@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```bash
 python extract.py --src PATH_TO_LMDB_FOLDER --dst PATH_TO_SAVE_FOLDER
 ```
-- We specified path to LMDB folders in attached docs
+- We specified path to LMDB folders in attached docs [here](https://docs.google.com/document/d/1LJGBUyaMGCErbZcS2aOcZptwKKvYHtrBCeUg9-EnxiU/edit?usp=sharing)
 - For example, if you want to extract '/mnt/disk2/baoanh/SCAN-UNIGRAM-MULTIPROCESS-FIRST-45M/train_ocr' folder into 'unigram_images' folder, use this command:
 ```bash
 python extract.py --src /mnt/disk2/baoanh/SCAN-UNIGRAM-MULTIPROCESS-FIRST-45M/train_ocr --dst unigram_images
